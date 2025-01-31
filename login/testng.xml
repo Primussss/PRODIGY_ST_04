@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="CrossBrowserSuite">
+    <test name="GoogleLoginTest">
+        <!-- Parameters are passed from here to the @Parameters annotation in the test -->
+        <parameter name="browser" value="chrome" /> <!-- You can change "chrome" to "firefox" or "Edge" -->
+        <classes>
+            <class name="com.qa.testcases.GoogleLoginTest" />
+        </classes>
+    </test>
+</suite>
+
